@@ -1,10 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
   return (
     <div>
-      <h1>Home</h1>
-      
+      <h1> This Dynamic id:  {params.productid}</h1>
     </div>
   )
 }
